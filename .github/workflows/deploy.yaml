@@ -40,7 +40,8 @@ jobs:
           pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
 
       - name: Log IPFS hash
-        run: echo "IPFS Hash: ${{ steps.upload.outputs.hash }}"
+        run: |
+          echo "IPFS Hash: ${{ steps.upload.outputs.hash }}"
 
       # - name: Update DNS with new IPFS hash
       #   uses: Uniswap/cloudflare-update-web3-gateway@b3205288b1c6d0acb63fa3bd8fb686c72a9e3f3e
