@@ -1,11 +1,11 @@
 {
-  "name": "@kittycorn/default-tokenize-list",
+  "name": "@kittycorn/default-token-list",
   "version": "1.0.0",
-  "description": "The Kittycorn default tokenize list",
-  "main": "build/kittycorn-default.tokenizelist.json",
+  "description": "The Kittycorn default token list",
+  "main": "build/kittycorn-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/kittycorn-default.tokenizelist.json",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/kittycorn-default.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [

@@ -31,7 +31,7 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI: "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
-    keywords: ["kittycorn", "tokenize", "default"],
+    keywords: ["kittycorn", "default"],
     tokens: [
       // ...mainnet,
       // ...ropsten,
