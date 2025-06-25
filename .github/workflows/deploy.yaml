@@ -25,10 +25,9 @@ jobs:
 
       - name: Pin to IPFS
         id: upload
-        uses: anantaramdas/ipfs-pinata-deploy-action@a551f37c17ec3961df7c3ad52e1cd266dfd3d7e7
-        with:
-          pin-name: Kittycorn Default Token List
-          path: "build/kittycorn-default.tokenizelist.json"
+       uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
+          pin-name: 'Kittycorn Default Token List'
+          path: "build/kittycorn-default.tokenlist.json"
           pinata-api-key: ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
 
